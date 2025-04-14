@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cash Register Project</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>💰 Cash Register Project</h2>
+
+    <div class="card">
+      <p id="price"></p>
+      <p>Enter cash from customer:</p>
+      <input type="number" id="cash" placeholder="Enter amount" />
+      <button id="purchase-btn">Purchase</button>
+      <p id="change"></p>
+    </div>
+
+    <div class="card">
+      <p id="change-due"></p>
+    </div>
+
+    <div class="card" id="container">
+      <!-- Cash drawer will render here -->
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
